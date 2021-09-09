@@ -1,0 +1,75 @@
+.banner{
+  height: 336px;
+  padding: 0px;
+  background-position: center;
+  background-size: cover;
+}
+.banner h1{
+  color: rgb(224, 2, 2);
+  margin: 0px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.banner p{
+  color: rgb(37, 54, 146);
+  margin: 0px;
+  font-size: 35px;
+  font-family: 'Architects Daughter', cursive;
+  margin-bottom: 40px;
+}
+.back{
+  background-color: rgb(214, 65, 65) ;
+}
+.foorer {
+  list-style: none;
+  padding-left: 400px;
+  background-color: rgb(238, 123, 16);
+
+  }
+.foorer li{
+  display: inline;
+  font-size: 40px;
+  padding: 10px 55px;
+  background-position: center;
+}
+
+li a:hover{
+  color: rgb(18, 14, 235);
+}
+
+ul li a{
+  color: rgb(20, 21, 22);
+}
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .banner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .banner {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .banner {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

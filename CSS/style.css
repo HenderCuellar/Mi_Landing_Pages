@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&family=Red+Hat+Display&display=swap');
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/conteiner.css);
+@import url(components/card.css);
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(243, 242, 242);
+}
+
+h1{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+}
+
+h2, h3{
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .banner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .banner {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .banner {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
